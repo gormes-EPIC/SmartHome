@@ -47,10 +47,10 @@ Step 6: Now add a constructor that initializes your array to a size given by the
 
 Step 7: Create the methods below:
 
-| access modifier | return type | name     | arguments                   | description                                                                                                                                                                              |
-| --------------- | ----------- | -------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| public          | void        | add      | (Lightbulb light, int slot) Adds the light to the smart home in the slot given. If the slot number is greater than the number of total slots. If there is already something the slot, replace it with the new item. e  |
-| public          | int         | sumTotal | ()                          | Returns the total power usage of the entire `SmartHo                                                                                                                                     |
+| access modifier | return type | name     | arguments                   | description                                                                                                                                                                               |
+| --------------- | ----------- | -------- | --------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| public          | void        | add      | (Lightbulb light, int slot) | Adds the light to the smart home in the slot given. If the slot number is greater than the number of total slots. If there is already something the slot, replace it with the new item. e |
+| public          | int         | sumTotal | ()                          | Returns the total power usage of the entire `SmartHome`                                                                                                                                    |
 
 Step 8: Test your code with the following main.
 
